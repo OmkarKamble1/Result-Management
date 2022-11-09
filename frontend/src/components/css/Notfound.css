@@ -1,0 +1,22 @@
+#nfh1{
+    font-family: monospace;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 100px;
+    margin-bottom: 0%;
+    letter-spacing: 10px;
+}
+
+#nfh2{
+    letter-spacing: 10px;
+    font-family: monospace;
+    margin-top: 0%;
+    text-align: center;
+    font-size: 50px;
+}
+
+#nfh3{
+    margin-top: 40%;
+    text-align: center;
+    font-size:25px;
+}
