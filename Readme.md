@@ -9,7 +9,7 @@
 
 ## Preview
 ![prev](https://i.imgur.com/QlFFVd3.gif)
-##### *the gif quality lol*
+*the gif quality lol*
 
 ## License
 Distributed under the MIT License. See  [`LICENSE.txt`](https://github.com/OmkarKamble1/Result-Management/blob/main/LICENSE.txt) for more information.
