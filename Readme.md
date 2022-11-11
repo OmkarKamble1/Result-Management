@@ -8,7 +8,7 @@
 - NodeJS 
 
 ## Preview
-![prev](https://i.imgur.com/Cqt8hYE.gif)
+![prev](https://i.imgur.com/QlFFVd3.gif)
 ##### *the gif quality lol*
 
 ## License
