@@ -8,7 +8,7 @@
 - NodeJS 
 
 ## Preview
-![aada](https://i.imgur.com/Cqt8hYE.gif)
+![prev](https://i.imgur.com/Cqt8hYE.gif)
 
 ## License
 Distributed under the MIT License. See  [`LICENSE.txt`](https://github.com/OmkarKamble1/Result-Management/blob/main/LICENSE.txt) for more information.
