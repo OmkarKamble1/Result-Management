@@ -8,4 +8,4 @@
 - NodeJS 
 
 ## License
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See [`LICENSE.txt`](https://github.com/OmkarKamble1/Result-Management/blob/main/LICENSE.txt) for more information.
