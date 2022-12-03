@@ -1,0 +1,95 @@
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: 'Raleway';
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: white;
+    border-radius: 1em;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+
+.center h1 {
+    text-align: center;
+    padding: 15px 0;
+    font-size: 2em;
+}
+
+.center form {
+    padding-left: 50px;
+    padding-right: 65px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+}
+
+form .txt_field {
+    position: relative;
+    
+    margin: 30px 0;
+}
+
+.txt_field input {
+    width: 100%;
+    padding: 2px 5px;
+    padding-left: 10px;
+    height: 40px;
+    font-size: 17px;
+    border-radius: 5em;
+    border-width: 1px;
+    background: none;
+}
+
+
+
+.pass {
+    margin: -5px 0 20px 5px;
+    color: #a6a6a6;
+    cursor: pointer;
+}
+
+.submit{
+    margin-top: 25px;
+    cursor: pointer;
+    margin-left: 10%;
+    width: 80%;
+    height: 50px;
+    background: #9985ff;
+    border-radius: 3em;
+    font-size: 20px;
+    color: #000000;
+    border-color: transparent;
+    font-weight: 500;
+}
+
+.submit:hover{
+    background: #7e64ff;
+}
+
+#errmsg1{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 180px;
+    
+    height: 30px;
+    margin-top: -15px;
+    margin-left: 12%;
+    align-items: center;
+    font-weight: bolder;
+    color: #cf0000;
+    background: #ffe0e0;
+    border: 1px solid #aa0000;
+    border-radius: 5em;
+    animation: fadein 1s;
+}
+
+@keyframes fadein {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,39 @@
+nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 13vh;
+  margin-bottom: 0.5%;
+  align-items: center;
+  background-color: white;
+  border-radius: 0 0 1em 1em;
+  column-gap: 3%;
+}
+#logo {
+  height: 12vh;
+}
+#name2 {
+  display: none;
+}
+#name {
+  font-size: 25px;
+
+  color: black;
+}
+@media only screen and (max-width: 500px) {
+  nav {
+    height: 8vh;
+  }
+  #logo {
+    height: 5.7vh;
+  }
+}
+@media only screen and (max-width: 850px) {
+  #name {
+    display: none;
+  }
+  #name2 {
+    font-size: 28px;
+    display: block;
+  }
+}

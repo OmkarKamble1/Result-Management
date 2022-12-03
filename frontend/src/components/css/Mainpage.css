@@ -1,0 +1,216 @@
+#studentlog {
+  padding-left: 1%;
+}
+#teacherlog {
+  padding-right: 2%;
+  color: #2691d9;
+}
+
+.mp_div {
+  padding-bottom: 0.6%;
+  background-repeat: no-repeat;
+  margin: 1% 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*-------------- header----------- */
+main {
+  margin-top: 0;
+  height: auto;
+  width: 98%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 1rem;
+}
+.stuDiv {
+  font-family: "Raleway", sans-serif;
+  width: 100%;
+  background-color: white;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  display: flex;
+  align-items: center;
+  border-left: 1px solid #5c26d959;
+}
+.stuPanel {
+  width: 90%;
+  height: auto;
+  background-color: rgba(175, 175, 175, 0.356);
+  margin: 5% 5% 4% 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space;
+  border-radius: 1em;
+}
+.stuPanel > h1 {
+  margin-top: 7%;
+  margin-bottom: 8%;
+  font-size: 2em;
+  font-weight: bolder;
+  text-align: center;
+}
+.stuDiv > .stuPanel > select {
+  cursor: pointer;
+  font-family: var(--font1);
+  font-size: medium;
+  font-weight: bolder;
+  background-color: transparent;
+  border-radius: 3em;
+  padding: 4% 2%;
+  border-bottom: 1px solid gray;
+  color: black;
+  margin-bottom: 1.5em;
+  margin: 4% 10%;
+  /* outline: none; */
+}
+select:hover {
+  background-color: transparent;
+}
+.selector {
+  font-weight: 600;
+  font-family: var(--font1);
+  margin: 0 10%;
+  font-size: 1em;
+}
+select > option {
+  font-weight: 600;
+  background-color: rgba(0, 0, 0, 0);
+  font-family: var(--font1);
+}
+#done {
+  cursor: pointer;
+  position: relative;
+  padding: 5% 1%;
+  margin-top: 4%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 3%;
+  background-color: #9985ff;
+  border: none;
+  font-family: var(--font1);
+  font-size: 1.5em;
+  font-weight: 600;
+  border-radius: 1em;
+}
+#done:hover {
+  background-color: #7e64ff;
+}
+/* ------------ student login -  ---------- */
+
+.notiDiv {
+  width: 100%;
+  height: auto;
+  border-right: 1px solid #5c26d959;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+}
+.notiPanel {
+  width: 90%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 5% 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 1em;
+}
+.notiPanel > ul {
+  margin-right: 20px;
+  font-weight: 600;
+  row-gap: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-evenly;
+}
+.notiPanel > h1 {
+  padding-top: 5%;
+  font-size: 2em;
+  text-align: center;
+}
+
+/* --------Notifications panel------------ */
+.instDiv {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.instPanel {
+  width: 90%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 5% 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 1em;
+  font-family: "Raleway";
+}
+.instPanel > h1 {
+  padding-top: 5%;
+  font-size: 2em;
+  text-align: center;
+}
+.instPanel > ol {
+  margin-right: 20px;
+  row-gap: 10px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-evenly;
+}
+#errmsg {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  height: 35px;
+  left: 22%;
+  top: 10%;
+  align-items: center;
+  font-weight: bolder;
+  color: #cf0000;
+  background: #ffe0e0;
+  border: 1px solid #aa0000;
+  border-radius: 5em;
+  animation: fadein 500ms;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#teacherloginlink {
+  color: #311f8a;
+  font-size: 17px;
+  margin-bottom: 8px;
+  margin-right: 10px;
+  text-align: right;
+}
+
+@media only screen and (max-width: 850px) {
+  main {
+    flex-direction: column-reverse;
+  }
+  .notiDiv {
+    border-right: none;
+  }
+  .stuDiv {
+    border-top-left-radius: 1rem;
+    margin-top: 0px;
+    border-left: none;
+  }
+}

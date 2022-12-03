@@ -1,0 +1,102 @@
+.ar_outer{
+    background-color: white;
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    height: 522px;
+}
+
+.ar_logged{
+    font-size: medium;
+    margin-left: 3%;
+}
+
+.ar_div1{
+    display: flex;
+    font-size: 11px;
+    justify-content: space-evenly;
+}
+
+.ar_div2_1{
+    align-items: center;
+    display: flex;
+    font-size: 13px;
+    justify-content: space-evenly;
+}
+
+.ar_div2_1 input{
+    margin-left: 15px;
+    padding-left: 10px;
+    border-width: 1px;
+    border-radius: 2em;
+    font-size: large;
+    height: 30px;
+    width: 380px;
+}
+
+.ar_div2_1 > *{
+    align-items: center;
+}
+
+.ar_div2_2{
+    margin: 20px;
+    justify-content: space-evenly;
+    display: flex;
+
+}
+
+.ar_div2_2 input{
+    padding-left: 10px;
+    border-width: 1px;
+    border-radius: 2em;
+    font-size: large;
+    height: 30px;
+    width: 55px;
+}
+
+.ar_div2_2 > div > div >  h2{
+    margin-top: 25px;
+    width: 450px;
+    font-size: 20px;
+}
+
+.ar_div2_2 > div > div >  select{
+    padding-left: 7px;
+    height: 35px;
+    font-size: large;
+    width: 145px;
+    border-width: 1px;
+    border-radius: 3em;
+}
+
+.ar_div3{
+    margin-top: 80px;
+    column-gap: 52px;
+    justify-content: center;
+}
+.ar_div3 > button{
+    font-size: large;
+    border-radius: 3em;
+    height: 40px;
+    width: 135px;
+    border:none;
+    background-color: #9985ff;
+    cursor: pointer;
+}
+
+.ar_div2_2 > div > div >  #div2_remark{
+    width: 100px;
+}
+
+.ar_div2_2 > div > div{
+    align-items: center;
+    display: flex;
+}
+
+.ar_div2_2 > div > div> input{
+    margin-left: 20px;
+}

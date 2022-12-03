@@ -1,0 +1,284 @@
+.outer-content {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  background-image: url("../../../public/certBg5.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-blend-mode: multiply;
+  border-radius: 0.2em;
+  border-style: solid;
+  border-width: 1px;
+  display: flex;
+  margin: 5% 0%;
+  max-height: 29.7cm;
+  width: 21cm;
+  background-color: rgb(255, 255, 255);
+}
+
+.innerdiv1 {
+  width: 19.6cm;
+  background-color: transparent;
+  margin: 0.5cm 0.7cm;
+}
+.head {
+  width: 10cm;
+  height: 3cm;
+  display: flex;
+}
+
+.head #imgindead {
+  width: 3cm;
+  height: 3cm;
+}
+.inhead {
+  margin-left: -30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inhead > h2 {
+  letter-spacing: 2px;
+  font-family: "Franklin Gothic Medium";
+  color: rgb(200, 0, 0);
+  font-weight: bolder;
+  margin: auto;
+  width: 17.5cm;
+  font-size: 0.6cm;
+}
+.inhead > h3,
+h4 {
+  font-family: "Segoe UI";
+
+  margin: auto;
+  font-size: 0.3cm;
+}
+
+.innerdiv2 > h4 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 22px;
+  color: rgb(173, 0, 0);
+  text-align: center;
+}
+
+.innderdiv4 {
+  margin-left: 70px;
+}
+.innderdiv4 table {
+  margin: 3% 0%;
+  font-size: large;
+  font-weight: 600;
+}
+.innderdiv4 td {
+  padding-left: 0.7cm;
+  font-family: system-ui;
+
+  padding-top: 0.2cm;
+}
+
+.innerdiv5 {
+  display: flex;
+  width: auto;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.035);
+}
+.innerdiv5 table {
+  border-spacing: 0px;
+  width: 18cm;
+  border: 2px solid rgb(120, 120, 120);
+  font-family: "Malgun Gothic";
+  margin: 0.5cm auto;
+}
+.innerdiv5 th {
+  letter-spacing: 2px;
+  padding: 0.4cm 0cm;
+  border-bottom: 2px solid rgb(130, 130, 130);
+  text-align: center;
+  width: 8cm;
+  font-size: 20px;
+}
+.innerdiv5 td {
+  letter-spacing: 0.2px;
+  padding: 0.3cm 0cm;
+  text-align: center;
+  width: 8cm;
+  font-size: 18px;
+}
+
+.lefttd {
+  border-right: 2px solid rgb(130, 130, 130);
+}
+.innerdiv3 {
+  letter-spacing: 0.2px;
+  font-family: "Malgun Gothic";
+  font-size: 15px;
+  column-gap: 30ch;
+  justify-content: center;
+  width: 20cm;
+  display: flex;
+  flex-direction: row;
+}
+
+.innerdiv6 {
+  display: flex;
+  justify-content: right;
+}
+.innerdiv6 button {
+  font-weight: 600;
+  font-family: "calibri";
+  font-size: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  border-radius: 2em;
+  width: 200px;
+  border: none;
+  height: 40px;
+  background-color: #9985ff;
+}
+
+button:hover {
+  background-color: #7e64ff;
+}
+
+@media only screen and (max-width: 850px) {
+  .content {
+    border-radius: 0.2em;
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    margin: 15% 0.3%;
+    max-height: auto;
+    width: auto;
+
+    background-color: rgb(255, 255, 255);
+  }
+
+  .innerdiv1 {
+    width: auto;
+    background-color: transparent;
+    margin: 4% 6%;
+  }
+  .head {
+    width: auto;
+    height: auto;
+    display: flex;
+  }
+
+  .head #imgindead {
+    width: 50px;
+    height: 50px;
+  }
+  .inhead {
+    width: auto;
+    margin-left: 0px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+  .inhead > h2 {
+    margin: 1px;
+    letter-spacing: 0.5px;
+    font-family: "Franklin Gothic Medium";
+    color: rgb(200, 0, 0);
+    font-weight: bolder;
+    width: auto;
+    font-size: 12px;
+  }
+  .inhead > h3,
+  h4 {
+    font-family: "Segoe UI";
+
+    margin: 0px;
+    font-size: 61px;
+  }
+
+  .innerdiv2 > h4 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+    color: rgb(173, 0, 0);
+    text-align: center;
+  }
+
+  .innderdiv4 {
+    width: auto;
+    margin-left: 0px;
+  }
+  .innderdiv4 table {
+    margin: 1% 0%;
+    font-size: 11px;
+    font-weight: 600;
+  }
+  .innderdiv4 td {
+    padding-left: 10px;
+    font-family: system-ui;
+
+    padding-top: 7px;
+  }
+
+  .innerdiv5 {
+    display: flex;
+    width: auto;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.035);
+  }
+  .innerdiv5 table {
+    border-spacing: 0px;
+    width: auto;
+    border: 1px solid rgb(120, 120, 120);
+    font-family: "Malgun Gothic";
+    margin: 29px auto;
+  }
+  .innerdiv5 th {
+    letter-spacing: 1px;
+    padding: 10px;
+    border-bottom: 1px solid rgb(130, 130, 130);
+    text-align: center;
+    width: auto;
+    font-size: 15px;
+  }
+  .innerdiv5 td {
+    margin: 19px;
+    padding: 10px 10px;
+    text-align: center;
+    width: auto;
+    font-size: 12px;
+  }
+
+  .lefttd {
+    border-right: 2px solid rgb(130, 130, 130);
+  }
+  .innerdiv3 {
+    letter-spacing: 0.2px;
+    font-family: "Malgun Gothic";
+    font-size: 12px;
+    column-gap: 36%;
+    justify-content: center;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .innerdiv6 {
+    display: flex;
+    justify-content: center;
+  }
+  .innerdiv6 button {
+    font-weight: 600;
+    font-family: "calibri";
+    font-size: 15px;
+    cursor: pointer;
+    margin-bottom: 10%;
+    border-radius: 2em;
+    width: 45%;
+    border: none;
+    height: 29px;
+    background-color: #9985ff;
+  }
+
+  button:hover {
+    background-color: #7e64ff;
+  }
+}
