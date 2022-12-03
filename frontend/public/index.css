@@ -1,0 +1,14 @@
+:root {
+  --theme-color: #ad2851;
+  --transparent-col-1: #ad285070;
+  --transparent-col-2: #ad2850b9;
+  --divs-background-col-1: rgba(128, 128, 128, 0.356);
+  --font1: "Raleway", sans-serif;
+}
+body {
+  margin: 0 0 0 0;
+  background: linear-gradient(45deg, #c4ccf1, #f3d1f3);
+  font-family: "Raleway", sans-serif;
+  align-items: center;
+  background-repeat: repeat-y;
+}
