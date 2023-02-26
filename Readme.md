@@ -1,6 +1,9 @@
 # Hi, this is a result management website project. ❤️
 ##### It is exclusively made for my college
 
+## Link
+[live link](https://vppcoe-results.netlify.app/)
+
 ## Made with,
 - MongoDB Atlas
 - ExpressJS
